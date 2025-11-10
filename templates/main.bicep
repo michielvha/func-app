@@ -72,7 +72,7 @@ resource applicationInsights2 'Microsoft.Insights/components@2020-02-02' = {
   }
 }
 
-resource functionApp 'Microsoft.Web/sites@2021-03-01' = {
+resource functionApp 'Microsoft.Web/sites@2025-03-01' = {
   name: names.faName
   location: location
   kind: 'functionapp'
