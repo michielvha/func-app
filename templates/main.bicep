@@ -24,7 +24,7 @@ var names = {
   faName: '${projectName}-${userSequenceNumber}-${resourceAbbreviations.fa}-009'
 }
 
-resource storageAccount 'Microsoft.Storage/storageAccounts@2022-05-01' = {
+resource storageAccount 'Microsoft.Storage/storageAccounts@2025-06-01' = {
   name: names.staName
   location: location
   sku: {
